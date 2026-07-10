@@ -1,0 +1,95 @@
+<!--reset style
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "open sans", sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+
+.common-btn{
+    background-color: #fd6e0a;
+    padding: 15px 8px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+.common-outline-btn{
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 22px;
+    color: #fd6e0a;
+    border: 1px solid #fd6e0a;
+    cursor: pointer;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+    
+}
+
+nav{
+    
+    display:flex;
+    justify-content: space-between; 
+    
+    padding: 12px, 10px , 12px;
+}
+ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    align-items: center;
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 32px;
+}
+.logo-r{
+    color: #fd6e0a;
+}
+
+.hero-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+
+}
+
+.hero-right p-1{
+    font-size: 20px;
+    line-height: 600;
+}
+.hero-left h2 {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.hero-left-btn-parent{
+    margin-top: 12px;
+
+}
+.hero-parent-root{
+    background-color: #fff8f3
+}
+
+.about-parent{
+    background-color: #fff8f3;
+    margin: 70px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
